@@ -1,4 +1,4 @@
-# Soccer Team Tracker V1.3 — GitHub Pages PWA
+# Soccer Team Tracker V1.4 — GitHub Pages PWA
 
 A standalone, mobile-friendly soccer stat tracker for **your team only**, with 9v9/11v11, 30/35/40/45-minute halves, individual stats, game clock, playing time, and single/bulk substitutions.
 
@@ -20,4 +20,10 @@ A standalone, mobile-friendly soccer stat tracker for **your team only**, with 9
 ## Updating
 Upload changed files to the repository and commit. When updating the service worker, change the CACHE name to ensure an updated offline cache. Reload the site online to receive updates.
 
-V1.3: Touch selection for events, team-only Goals Allowed, game events CSV.
+V1.4: Touch selection for events, team-only Goals Allowed, game events CSV.
+
+## V1.4 changes
+- Goals Allowed now prompts for goalkeeper selection, counted in individual and team totals and player CSV.
+- Old V1.3 exports with a `goalkeeper` field are recognized and normalized on import.
+- Existing storage key and game IDs remain unchanged; import same-ID game replaces it.
+- Import the separately supplied corrected October 18 JSON for the requested historical adjustment.
