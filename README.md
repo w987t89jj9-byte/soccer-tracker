@@ -22,6 +22,8 @@ Upload changed files to the repository and commit. When updating the service wor
 
 V1.4: Touch selection for events, team-only Goals Allowed, game events CSV.
 
+Soccer Tracker V1.5: No substitutions or new playing-time tracking. Every stat selection includes Team and the full roster. Historical game data and minutes remain in backups. Upload ZIP contents to the existing GitHub repository and commit. Export JSON before upgrading.
+
 ## V1.4 changes
 - Goals Allowed now prompts for goalkeeper selection, counted in individual and team totals and player CSV.
 - Old V1.3 exports with a `goalkeeper` field are recognized and normalized on import.
